@@ -1,0 +1,113 @@
+
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  margin: 0 auto;
+}
+
+#blueSquare {
+  margin: 0 auto;
+  width: 300px;
+  background-color: blue;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 8px;
+  background-color: #f54260;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 0px 5px 0px #bf0020;
+  bottom: 10px;
+  padding: 10px;
+  margin-top: 30px;
+  width: 100px;
+  font-size: 30px;
+}
+
+body {
+  margin: 0 auto;
+  background-color: aliceblue;
+  text-align: center;
+}
+h2 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  }
+#next-button {
+  display: inline-block;
+  border-radius: 8px;
+  background-color: #4263f5;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 0px 5px 0px #010b69;
+  margin-left: 100px;
+}
+.kai {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  height: 510px;
+  background-color: rgb(98, 195, 195);
+  border-radius: 5px;
+}
+.kaitou {
+  width: 560px;
+  height: 500px;
+  background-color: rgb(172, 172, 172);
+  margin: 0 auto;
+  margin-top: 5px;
+}
+.answer-text {
+  width: 550px;
+  height: 330px;
+  background-color: white;
+  margin: 0 auto;
+}
+#quest-text {
+  width: 1200px;
+  height: 250px;
+  background-color: white;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+p#answer-text1 {
+  overflow: scroll;
+  text-align: left;
+  padding-left: 10px;
+}
+p#answer-text2 {
+  overflow: scroll;
+  text-align: left;
+  padding-left: 10px;
+}
+p#quest-text-doc {
+  text-align: left;
+  padding-left: 100px;
+  overflow: scroll;
+  height: 200px;
+}
+.yes {
+  margin: 0 auto;
+}
+#yes {
+  margin: 0 auto;
+  font-size: 70px;
+  color: red;
+}
+h1 {
+  height: 40px;
+}
+#quest-text-ja {
+  height: 25px;
+}
