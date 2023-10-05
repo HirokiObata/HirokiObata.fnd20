@@ -23,7 +23,8 @@ const questTextDoc = [
     /**<br>
     * @param {<Array<any>} ???<br>
     * @returns {Array<any>} 与えられた配列から偶数のみの配列を返す<br>
-    */`,
+    */<br>
+    test(evenArray([1,2,3,4,5]),[2,4]);`,
   //3問目
     `
     /**
@@ -32,7 +33,10 @@ const questTextDoc = [
  */<br>
 const nestedObject1 = { a: "A" };<br>
 const nestedObject2 = { a: "A", b: { c: "C" } };<br>
-const nestedObject3 = { a: "A", b: { c: "C" }, d: { e: { f: "F" } } };<br>`
+const nestedObject3 = { a: "A", b: { c: "C" }, d: { e: { f: "F" } } };<br>
+test(getDepth(nestedObject1), 1);<br>
+test(getDepth(nestedObject2), 2);<br>
+test(getDepth(nestedObject3), 3);`
 
 ];
 //解答文文
