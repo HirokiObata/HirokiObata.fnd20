@@ -48,14 +48,12 @@ const answerTextObj = [
     function counter() {<br>
       &emsp;intNum = intNum + 1;<br>
       &emsp;console.log(intNum)<br>
-      &emsp;isOdd(intNum)<br>
     }`,
     text2:
     `const intNum = 0;<br>
     function counter() {<br>
       &emsp;intNum = intNum + 1;<br>
       &emsp;console.log(intNum)<br>
-      &emsp;isOdd(intNum)<br>
     }`,
   },
   //2 day18 高階関数　のスライド
@@ -83,33 +81,33 @@ const answerTextObj = [
       `function getDepth(obj){<br>
         &emsp;let count = 1;<br>
         &emsp;const res = [];<br>
-        &emsp;function disassembly(target) {<br>
+        &emsp;##################(target) {<br>
           &emsp;&emsp;for(const key in target) {<br>
             &emsp;&emsp;&emsp;let keycount = 0<br>
-            &emsp;&emsp;&emsp;if(typeof target[key] === "object") {<br>
+            &emsp;&emsp;&emsp;if(######################) {<br>
               &emsp;&emsp;&emsp;&emsp;count++     <br>   
               &emsp;&emsp;&emsp;&emsp;disassembly(target[key])<br>
             &emsp;&emsp;&emsp;}<br>
           &emsp;&emsp;}<br>
         &emsp;}<br>
         &emsp;for (const Key in obj) {<br>
-          &emsp;&emsp;if(typeof obj[Key]  === "object") {<br>
+          &emsp;&emsp;if(######################) {<br>
             &emsp;&emsp;&emsp;count++<br>
-            &emsp;&emsp;&emsp;disassembly(obj[Key]); <br>  
+            &emsp;&emsp;&emsp;#############; <br>  
           &emsp;&emsp;}<br>
-          &emsp;&emsp;res.push(count)<br>
+          &emsp;&emsp;############<br>
         &emsp;}<br>
-        &emsp;const max = Math.max(...res)<br>
+        &emsp;const max = #########<br>
         &emsp;return max<br>
       }`,
       text2:
       `function getDepth(obj){<br>
         &emsp;let count = 1;<br>
         &emsp;const res = [];<br>
-        &emsp;function disassembly(target) {<br>
+        &emsp;##################(target) {<br>
           &emsp;&emsp;for(const key in target) {<br>
             &emsp;&emsp;&emsp;let keycount = 0<br>
-            &emsp;&emsp;&emsp;if(typeof target[key] === "object") {<br>
+            &emsp;&emsp;&emsp;if(######################) {<br>
               &emsp;&emsp;&emsp;&emsp;count++       <br> 
               &emsp;&emsp;&emsp;&emsp;disassembly(target[key])<br>
             &emsp;&emsp;&emsp;}<br>
@@ -117,13 +115,13 @@ const answerTextObj = [
         &emsp;}<br>
         &emsp;for (const Key in obj) {<br>
           &emsp;count = 1;<br>
-          &emsp;&emsp;if(typeof obj[Key]  === "object") {<br>
+          &emsp;&emsp;if(######################) {<br>
             &emsp;&emsp;&emsp;count++<br>
-            &emsp;&emsp;&emsp;disassembly(obj[Key]);  <br> 
+            &emsp;&emsp;&emsp;#############;  <br> 
           &emsp;&emsp;}<br>
-          &emsp;&emsp;res.push(count)<br>
+          &emsp;&emsp;############<br>
         &emsp;}<br>
-        &emsp;const max = Math.max(...res)<br>
+        &emsp;const max = #########<br>
         &emsp;return max<br>
       }`,
     },
