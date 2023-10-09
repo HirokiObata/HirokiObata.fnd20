@@ -126,3 +126,8 @@ h1 {
   font-weight: bold;
   font-size: 110%;
 }
+.correct-answer {
+  border: red;
+  border-width: 3px;
+  border-style: solid;
+}
