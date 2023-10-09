@@ -39,9 +39,9 @@ const questTextDoc = [
  * @param {object} obj<br>
  * @returns {number} 引数のオブジェクトの深さ（何層になっているか）を返す。入れ子になったオブジェクトが複数ある場合は、一番深い層の数を返してください。<br>
  */<br>
-const nestedObject1 = { a: "A" };<br>
-const nestedObject2 = { a: "A", b: { c: "C" } };<br>
-const nestedObject3 = { a: "A", b: { c: "C" }, d: { e: { f: "F" } } };<br>`
+const nestedObject1 = { a: "A" };  // => 1<br>
+const nestedObject2 = { a: "A", b: { c: "C" } };  // => 2<br>
+const nestedObject3 = { a: "A", b: { c: "C" }, d: { e: { f: "F" } } };  // => 3<br>`
 
 ];
 //解答文文
