@@ -32,7 +32,9 @@ const questTextDoc = [
     /**<br>
     * @param {<Array<any>} arr<br>
     * @returns {Array<any>} 与えられた配列から偶数のみの配列を返す<br>
-    */`,
+    */<br>
+     const newArray = evenArray([1, 2, 3, 4, 5, 6])  // => [2, 4, 6]
+     `,
   //3問目
     `
     /**
