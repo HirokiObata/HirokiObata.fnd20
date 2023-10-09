@@ -37,7 +37,7 @@ const questTextDoc = [
      `,
   //3問目
     `
-    /**
+    /**<br>
  * @param {object} obj<br>
  * @returns {number} 引数のオブジェクトの深さ（何層になっているか）を返す。入れ子になったオブジェクトが複数ある場合は、一番深い層の数を返してください。<br>
  */<br>
