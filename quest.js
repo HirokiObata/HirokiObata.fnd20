@@ -55,14 +55,12 @@ const answerTextObj = [
     function counter() {<br>
       &emsp;num = num + 1;<br>
       &emsp;console.log(num)<br>
-      &emsp;isOdd(num)<br>
     }`,
     text2:
     `<span class = "difference">const</span> num = 0;<br>
     function counter() {<br>
       &emsp;num = num + 1;<br>
       &emsp;console.log(num)<br>
-      &emsp;isOdd(num)<br>
     }`,
   },
   //2 day18 高階関数　のスライド
