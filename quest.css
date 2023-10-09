@@ -31,6 +31,10 @@
 body {
   margin: 0 auto;
   background-color: aliceblue;
+  background-image: url(quiz_man_hatena.png) ;
+  background-repeat: no-repeat;
+  background-position-x:  25%;
+  background-size: 7%;
   text-align: center;
 }
 h2 {
@@ -63,7 +67,7 @@ h2 {
 .kaitou {
   width: 560px;
   height: 500px;
-  background-color: rgb(172, 172, 172);
+  background-color: rgb(207, 205, 205);
   margin: 0 auto;
   margin-top: 5px;
 }
@@ -110,4 +114,15 @@ h1 {
 }
 #quest-text-ja {
   height: 25px;
+}
+.difference {
+  color: red;
+  font-weight: bold;
+}
+
+#quest-text-id {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 110%;
 }
