@@ -190,23 +190,28 @@ const elementAnswer1 = document.getElementById("answer-text1");
 const elementAnswer2 = document.getElementById("answer-text2");
 
 function answerAction(buttonObj){
-    if(buttonObj["target"] === document.getElementById("button1")){
-        if (answerYes[subNo]){
-          getAnswerparagraph.innerText = "正解！！"
-        } else {
-          getAnswerparagraph.innerText = "ハズレ！！"
-        }
-    } else if(buttonObj["target"] === document.getElementById("button2")) {
-        if (!answerYes[subNo]){
-          getAnswerparagraph.innerText = "正解！！"
-        } else {
-          getAnswerparagraph.innerText = "ハズレ！！"
-        }
+  if(buttonObj["target"] === document.getElementById("button1")){
+    if (answerYes[subNo]){
+      getAnswerparagraph.innerText = "正解！！";
+      elementAnswer1.classList.add("correct-answer");
     } else {
-      getAnswerparagraph.innerText = ""
-    }    
+      getAnswerparagraph.innerText = "ハズレ！！";
+      elementAnswer2.classList.add("correct-answer");
+    }
+  } else if(buttonObj["target"] === document.getElementById("button2")) {
+    if (!answerYes[subNo]){
+      getAnswerparagraph.innerText = "正解！！";
+      elementAnswer2.classList.add("correct-answer");
+    } else {
+      getAnswerparagraph.innerText = "ハズレ！！";
+      elementAnswer1.classList.add("correct-answer");
+    }
+  } else {
+    getAnswerparagraph.innerText = "";
+    elementAnswer1.classList.remove("correct-answer");
+    elementAnswer2.classList.remove("correct-answer");
+  }  
 }
-
 
 
 //解答ボタン取得
